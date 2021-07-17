@@ -1,0 +1,81 @@
+* {
+    font-family: Open Sans, sans-serif;
+}
+
+.imgmain {
+    object-fit: cover;
+}
+.navbar {
+    padding-top: 10.5px;
+}
+
+.rounded-circle {
+    width: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-gradient-warning {
+    background: linear-gradient(87deg, #fb6340, #fbb140) !important;
+}
+#map {
+    height: 400px;
+}
+.divs {
+    background-color: white !important;
+    height: 250px;
+    box-shadow: 1px 1px 11px lightgrey;
+    border-radius: 3px;
+    padding-left: 24px;
+    padding-right: 20px;
+}
+
+.main {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    object-fit: scale-down;
+    width: 100%;
+}
+.navbar a {
+    color: hsla(0, 0%, 100%, 0.95) !important;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.navu li {
+    margin-right: 0.3rem;
+    font-size: 14px;
+}
+
+#sequence {
+    color: white !important;
+    font-size: 1.5rem;
+}
+.eipo {
+    color: white;
+    font-size: 12vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.fonts {
+    background-color: #e5e8fa;
+    color: #2643e9;
+    display: inline-block;
+    border-radius: 60px;
+
+    padding: 0.5em 0.6em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .LoginUs {
+        margin-top: 10px;
+    }
+    .idea {
+        margin-top: 10px;
+    }
+}
